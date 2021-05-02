@@ -16,19 +16,21 @@ See the deployment on [https://vite-react-tailwind-starter.theodorusclarence.com
 ## Installation
 
 ### Clone the template
+
+To clone this template you can use one of the three ways:
+
+
 1. You can use npx degit
 ```bash
 npx degit https://github.com/theodorusclarence/vite-react-tailwind-starter my-app
 ```
 replace `my-app` with your application name
 
-or
 
 2. Use this repository as a template
 
 ![Use as template](https://i.imgur.com/I6aThUJ.png)
 
-or
 
 3. Deploy to vercel
 
