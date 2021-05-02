@@ -20,19 +20,19 @@ See the deployment on [https://vite-react-tailwind-starter.theodorusclarence.com
 To clone this template you can use one of the three ways:
 
 
-1. You can use npx degit
+#### 1. Use npx degit
 ```bash
 npx degit https://github.com/theodorusclarence/vite-react-tailwind-starter my-app
 ```
 replace `my-app` with your application name
 
 
-2. Use this repository as a template
+#### 2. Use this repository as a template
 
 ![Use as template](https://i.imgur.com/I6aThUJ.png)
 
 
-3. Deploy to vercel
+#### 3. Deploy to vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fvite-react-tailwind-starter)
 
@@ -100,9 +100,7 @@ An extension of UnstyledLink Component, you can add your default styling for a b
 <UnstyledLink
       className={`${props.className} inline-flex items-center font-bold hover:text-primary-400`}
       {...props}
-    >
-  {props.children}
-</UnstyledLink>
+/>
 ```
 
 ### Default Favicon Declaration
