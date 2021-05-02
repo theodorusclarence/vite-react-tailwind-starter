@@ -16,19 +16,23 @@ See the deployment on [https://vite-react-tailwind-starter.theodorusclarence.com
 ## Installation
 
 ### Clone the template
-To use this starter, you can use degit to do it by:
+1. You can use npx degit
 ```bash
 npx degit https://github.com/theodorusclarence/vite-react-tailwind-starter my-app
 ```
 replace `my-app` with your application name
 
+or
+
+2. Use this repository as a template
+
+![Use as template](https://i.imgur.com/I6aThUJ.png)
 
 or
 
-Use this repository as a template
-![Use as template](https://i.imgur.com/I6aThUJ.png)
-<!-- 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fnextjs-tailwind-starter) -->
+3. Deploy to vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fvite-react-tailwind-starter)
 
 
 ### Running The Application
