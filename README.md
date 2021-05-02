@@ -1,21 +1,45 @@
-This is a Vite React and Tailwind project bootstrapped using vite-react-tailwind-starter created by [Theodorus Clarence](https://github.com/theodorusclarence/vite-react-tailwind-starter).
+# Vite React Tailwind Starter
+![Screenshots](https://i.imgur.com/vlZMdj3.png)
+
+
+This is a [Vite](https://vitejs.dev/), [React](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/) project bootstrapped using vite-react-tailwind-starter created by [Theodorus Clarence](https://github.com/theodorusclarence/vite-react-tailwind-starter).
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
 See the deployment on [https://vite-react-tailwind-starter.theodorusclarence.com/](https://vite-react-tailwind-starter.theodorusclarence.com/)
 
-<!-- ![Screenshots](https://www.site-shot.com/cached_image/3aslTKJcEeuO5AJCrBEAAg) -->
 
-## Getting Started
-<!-- 
-To use this starter, you can use create-next-app to do it by:
+## Installation
+
+### Clone the template
+To use this starter, you can use degit to do it by:
 ```bash
-npx create-next-app -e https://github.com/theodorusclarence/nextjs-tailwind-starter project-name
+npx degit https://github.com/theodorusclarence/vite-react-tailwind-starter my-app
 ```
+replace `my-app` with your application name
+
 
 or
 
+Use this repository as a template
+![Use as template](https://i.imgur.com/I6aThUJ.png)
+<!-- 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fnextjs-tailwind-starter) -->
 
-First, run the development server:
+
+### Running The Application
+First, install all the dependencies,
+```bash
+npm i
+# or
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -25,9 +49,37 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+![Finished Build](https://i.imgur.com/c9P343j.png)
+
 You can start editing the page by modifying `pages/Home.jsx`. The page auto-updates as you edit the file.
 
 ## What's Inside
+
+### Absolute import
+
+You can absolute import by using `@/`
+
+For example
+```jsx
+import UnstyledLink from '@/components/UnstyledLink'
+```
+You can also use auto import and it should work automatically.
+
+When you add a new folder in src, add it on the `jsconfig.json`
+```json
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "@/components/*": ["./components/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/routes/*": ["./routes/*"],
+      // add new folder here
+    },
+  },
+}
+```
 
 ### Inter Fonts
 
@@ -35,6 +87,7 @@ Inter fonts is self hosted. The default weights are `400, 600, 700`. To add more
 
 ### UnstyledLink Component
 Used as a component for Next.js Link. Will render out Next/Link if the href started with `/` or `#`, else will render an `a` tag with `target='_blank'`.
+
 ### CustomLink Component
 An extension of UnstyledLink Component, you can add your default styling for a button/link.
 ```jsx
