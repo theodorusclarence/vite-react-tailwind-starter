@@ -7,7 +7,7 @@ export default function Home() {
       <main>
         <section className='bg-dark'>
           <div className='flex flex-col items-center justify-center min-h-screen text-white layout'>
-            <CustomLink href='https://github.com/theodorusclarence/nextjs-tailwind-starter'>
+            <CustomLink href='https://github.com/theodorusclarence/vite-react-tailwind-starter'>
               <h1>Vite React Tailwind Starter</h1>
             </CustomLink>
             <p className='mb-4'>
