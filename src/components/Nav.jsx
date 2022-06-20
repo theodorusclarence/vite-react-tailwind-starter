@@ -1,8 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 /*  ./components/Navbar.jsx   imp  */
 import { TbBone } from 'react-icons/tb';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
-import '../index.css'
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+
 const Nav = () => {
     const [active, setActive] = useState(false);
 
@@ -47,6 +47,7 @@ const Nav = () => {
                 >
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
                         <ConnectButton />
+
                     </div>
                 </div>
             </nav>

@@ -29,7 +29,7 @@ function Home() {
 
   return (
     <div>
-      <Nav />
+
 
       <h1>Fired Guys NFT Collection</h1>
       <div className="container">
